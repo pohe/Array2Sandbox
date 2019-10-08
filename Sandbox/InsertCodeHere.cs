@@ -63,7 +63,10 @@ namespace Sandbox
                 //h++;
             }
 
-
+            foreach (int i in intArray)
+            {
+                Console.WriteLine(i);
+            }
             string [] names = new string[]{"Sebastian", "Victor", "Tristan", "Nicolai"};
 
             names[0] = "Magnus";
